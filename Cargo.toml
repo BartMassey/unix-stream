@@ -1,0 +1,15 @@
+[package]
+name = "unix-stream"
+version = "0.1.0"
+authors = ["Bart Massey <bart.massey@gmail.com>"]
+edition = "2018"
+
+[[bin]]
+name = "pong"
+path = "src/pong.rs"
+
+[[bin]]
+name = "ping"
+path = "src/ping.rs"
+
+[dependencies]
